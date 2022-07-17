@@ -1,0 +1,151 @@
+.body__infors {
+    width: 319px;
+    position: fixed;
+    top: 95px;
+    right: calc((100% - 821px)/2);
+    height: 100vh;
+  }
+  
+  .body__infors-myuser {
+    height: 56px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  .body__infors-left {
+    height:100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .body__infors-avatar {
+    width:56px;
+    height: 100%;
+    background-color:#e9dada;
+    border-radius: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+  
+  }
+  
+  .body__infors-avatar i {
+    font-size:40px;
+    color: #fff;
+  }
+  
+  .body__infors-nickname {
+    line-height: 18px;
+    font-size: 14px;
+    color: rgb(38, 38, 38);
+    cursor: pointer;
+  }
+  .body__infors-name {
+    color: rgb(142, 142, 142);
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .body__infors-link {
+    text-decoration: none;
+    line-height:16px;
+    font-size: 14px;
+    font-weight:500;
+    color: rgb(0, 149, 246);
+  }
+  
+  .body__infors-suggest {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15px;
+  }
+  .body__infors-suggest-text {
+    font-size: 15px;
+    font-size: 900;
+    color:rgb(142, 142, 142);
+  }
+  .body__infors-suggest-link {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+    font-size: 12px;
+    font-weight:600;
+  }
+  
+  
+  .body__users-list {
+    margin-top: 10px;
+  }
+  .body__user-item {
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .body__users-left {
+    display: flex;
+  }
+  .body__users-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  .body__users-img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .body__users-nickname {
+    font-size:14px;
+    font-weight:500;
+    color: rgb(38, 38, 38);
+  }
+  
+  .body__users-nickname:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .body__users-name {
+    color: rgb(142, 142, 142);
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .body__users-link {
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    font-size: 12px;
+    font-weight:600;
+  }
+  
+  .body__contact-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 35px;
+  }
+  
+  .body__contact-link {
+    font-size: 12px;
+    font-weight:400;
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+  }
+  
+  .body__contact-link::after {
+    content: '\00B7';
+    margin: 0 0.25em 0 0.1em;
+  }
+  
+  .body__original {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight:400;
+    color: rgb(199, 199, 199);
+  }
